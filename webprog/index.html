@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <style>
+        .div:nth-child(2) {
+          background-color: #FEE7D8;
+        }
+        
+        .div:nth-child(4){
+          background-color: #FEE7D8;
+          width: 1519px;
+          height: 500px;
+          background-size: cover;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: relative;
+        }
+        
+        .div:nth-child(1){
+          background-color: transparent;
+        }
+        .div:nth-child(3){
+          background-image: url('homepage/arrivals bg.png');
+          width: 1519px;
+          height: 1024px;
+          background-size: cover;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: relative;
+        }
+        .lastdiv{
+          background-image: url('homepage/last.png');
+          width: 1519px;
+          height: 278px;
+          background-size: cover;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: relative;
+        }
+        .nav-bar {
+            width: 1519px;
+            height: 1024px;
+            background-image: url('homepage/hpbg.png');
+            background-size: cover;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: relative;
+          }
+          
+          .logo {
+            width: 100px;
+            height: 100px;
+            background-image: url('homepage/logo.png');
+            background-size: cover;
+            position: absolute;
+            top: 29px;
+            left: 75px;
+          }
+          
+          .logo1 {
+            width: 50px;
+            height: 50px;
+            background-image: url('homepage/search.png');
+            background-size: cover;
+            position: absolute;
+            top: 50px;
+            left: 1194px;
+          }
+          
+          .logo2{
+            width: 50px;
+            height: 50px;
+            background-image: url('homepage/bag.png');
+            background-color: #9BA5A0;
+            background-size: cover;
+            position: absolute;
+            top: 50px;
+            left: 1313px;
+          }
+          
+          
+          .nav-item {
+            list-style: none;
+            font-family: 'Inter';
+            position: absolute;
+            top: 60px;
+            width: 16%;
+            left: 299px;
+          }
+          
+          .nav-item:nth-child(2) {
+            left: 471px;
+          }
+          
+          .nav-item:nth-child(3) {
+            left: 633px;
+          }
+          
+          .nav-item:nth-child(4) {
+            left: 812px;
+          }
+          
+          .nav-item:nth-child(5) {
+            left: 968px;
+          }
+          
+          .nav-item a {
+            color: #7F604B;
+            text-decoration: none;
+            font-size: 25px;
+          }
+          
+          .carousel {
+            width: 1330px;
+            height: 721px;
+            top: 233px;
+            left: 57px;
+            overflow: hidden;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+          
+          .carousel img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+          
+          .text {
+            position: absolute;
+            font-family: 'Lora';
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+          }
+          
+          .text p {
+            color: #fff;
+            font-size: 70px;
+            font-weight: 700;
+            font-style: normal;
+            text-align: center;
+          }
+          .div img {
+            width: 300px;
+            height: 400px;
+            margin: 38px;
+            position: relative;
+            transition: 1s ease;
+          }
+          .div img:hover{
+            -webkit-transform: scale(1.2);
+            -ms-transform: scale(1.2);
+            transform: scale(1.2);
+            transition: 1s ease;
+            }
+      
+
+          .topcentered {
+            position: absolute;
+            top: 1206px;
+            font-family: 'Inter';
+            color: #FFFFFF;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 400;
+          }
+          .topcentered1 {
+            position: absolute;
+            top: 400px;
+            font-family: 'Inter';
+            color: #FFFFFF;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+          }
+          .topcentered2 {
+            position: absolute;
+            top: 450px;
+            font-family: 'Inter';
+            color: #000000;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+          }
+          .fb{
+            width: 79px;
+            height: 77px;
+            background-size: cover;
+            position: absolute;
+            top: 150px;
+            left: 500px;
+          }
+          .logolast{
+            width: 176px;
+            height: 176px;
+            background-size: cover;
+            position: absolute;
+            top: 100px;
+            left: 650px;
+          }
+          .ig{
+            width: 79px;
+            height: 77px;
+            background-size: cover;
+            position: absolute;
+            top: 150px;
+            left: 900px;
+          }
+
+          
+      </style>
+      
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+          <img src="" alt="">
+        </div>
+        <ul>
+          <li class="nav-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+        <div class="logo1">
+          <img src="" alt="">
+        </div>
+        <div class="logo2">
+          <img src="" alt="">
+        </div>
+        <div class="carousel">
+          <img src="homepage/ss1.jpg">
+          <div class="text">
+            <p>SLOGAN</p>
+            <p>HERE</p>
+            <p>HERE</p>
+          </div>
+          <img src="homepage/ss2.jpg">
+          <div class="text">
+            <p>SLOGAN</p>
+            <p>HERE</p>
+            <p>HERE</p>
+          </div>
+          <img src="homepage/ss3.jpg">
+          <div class="text">
+            <p>SLOGAN</p>
+            <p>HERE</p>
+            <p>HERE</p>
+          </div>
+      </div>
+      </div>
+      
+      <div class="div">
+        <img src="homepage/totebag.png" class="grow">
+        <div class="topcentered" style="left: 100px;">
+          <p>TOTE BAGS</p>
+        </div>
+        <img src="homepage/stickers.jpg">
+        <div class="topcentered" style="left: 490px;">
+          <p>STICKERS</p>
+        </div>
+        <img src="homepage/shirts.jpg">
+        <div class="topcentered" style="left: 890px;">
+          <p>SHIRTS</p>
+        </div>
+        <img src="homepage/more.png">
+        <div class="topcentered" style="left: 1290px;">
+          <p>MORE</p>
+        </div>
+      </div>
+      
+      <div class="div">
+        <img src="homepage/calendar.jpg">
+        <div class="topcentered1" style="left: 90px;">
+          <p>CALENDAR</p>
+        </div>
+        <img src="homepage/hat.jpg">
+        <div class="topcentered1" style="left: 450px;">
+          <p>BUCKET HATS</p>
+        </div>
+        <img src="homepage/sling.jpg">
+        <div class="topcentered1" style="left: 800px;">
+          <p>MINI SLING BAGS</p>
+        </div>
+        <img src="homepage/tiles.jpg">
+        <div class="topcentered1" style="left: 1225px;">
+          <p>PHOTO TILES</p>
+        </div>
+      </div>
+
+      <div class="div">
+        <img src="homepage/exc.png">
+        <div class="topcentered2" style="left: 65px;">
+          <p>HIGH QUALITY</p>
+        </div>
+        <img src="homepage/low.png">
+        <div class="topcentered2" style="left: 490px;">
+          <p>LOW-COST</p>
+        </div>
+        <img src="homepage/fast.png">
+        <div class="topcentered2" style="left: 830px;">
+          <p>FAST DELIVERY</p>
+        </div>
+        <img src="homepage/tr.png">
+        <div class="topcentered2" style="left: 1250px;">
+          <p>TRENDY</p>
+        </div>
+      </div>
+
+      <div class="lastdiv">
+        <div class="logo-container">
+          <img src="homepage/fb.png" class="fb">
+          <img src="homepage/logo.png" class="logolast">
+          <img src="homepage/IG.png" class="ig">
+        </div>
+      </div>
+      
+
+      <script>
+        // carousel animation
+        const carousel = document.querySelector('.carousel');
+        const images = document.querySelectorAll('.carousel img');
+        let current = 0;
+      
+        function updateCarousel() {
+          for (let i = 0; i < images.length; i++) {
+            images[i].style.display = 'none';
+          }
+          current = (current + 1) % images.length;
+          images[current-1].style.display = 'block';
+        }
+      
+        setTimeout(updateCarousel, 2000);
+      </script>
+</body>
+</html>
